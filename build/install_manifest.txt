@@ -1,0 +1,4 @@
+/usr/bin/cutefish-calculator
+/usr/share/applications/cutefish-calculator.desktop
+/usr/share/cutefish-calculator/translations/en_US.qm
+/usr/share/cutefish-calculator/translations/zh_CN.qm
