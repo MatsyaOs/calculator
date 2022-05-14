@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen",
-	"CMAKE_BINARY_DIR" : "/home/tokyo/clone/cuteclone/calculator/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/clone/cuteclone/calculator/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/calculator",
+	"BUILD_DIR" : "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/Documents/GitHub/calculator/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/Documents/GitHub/calculator/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/calculator",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/tokyo/clone/cuteclone/calculator/CMakeLists.txt",
+		"/home/tokyo/Documents/GitHub/calculator/CMakeLists.txt",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystem.cmake.in",
-		"/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
+		"/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/3.18.4/CMakeSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCCompiler.cmake",
@@ -55,7 +55,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCXXCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/Platform/Linux-Determine-CXX.cmake",
@@ -98,7 +98,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake",
@@ -124,7 +124,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake",
 		"/usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake",
@@ -142,7 +142,7 @@
 		"/usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake",
 		"/usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
+		"/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/3.18.4/CMakeCXXCompiler.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -210,47 +210,47 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake",
-		"/home/tokyo/clone/cuteclone/calculator/qml.qrc"
+		"/home/tokyo/Documents/GitHub/calculator/qml.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/tokyo/clone/cuteclone/calculator",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/Documents/GitHub/calculator",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/home/tokyo/clone/cuteclone/calculator/calcengine.h",
+			"/home/tokyo/Documents/GitHub/calculator/calcengine.h",
 			"MU",
 			"EWIEGA46WW/moc_calcengine.cpp"
 		],
 		[
-			"/home/tokyo/clone/cuteclone/calculator/engine/constants.h",
+			"/home/tokyo/Documents/GitHub/calculator/engine/constants.h",
 			"MU",
 			"BCDQH4B662/moc_constants.cpp"
 		],
 		[
-			"/home/tokyo/clone/cuteclone/calculator/engine/evaluator.h",
+			"/home/tokyo/Documents/GitHub/calculator/engine/evaluator.h",
 			"MU",
 			"BCDQH4B662/moc_evaluator.cpp"
 		],
 		[
-			"/home/tokyo/clone/cuteclone/calculator/engine/functions.h",
+			"/home/tokyo/Documents/GitHub/calculator/engine/functions.h",
 			"MU",
 			"BCDQH4B662/moc_functions.cpp"
 		],
 		[
-			"/home/tokyo/clone/cuteclone/calculator/engine/hmath.h",
+			"/home/tokyo/Documents/GitHub/calculator/engine/hmath.h",
 			"MU",
 			"BCDQH4B662/moc_hmath.cpp"
 		],
 		[
-			"/home/tokyo/clone/cuteclone/calculator/engine/number.h",
+			"/home/tokyo/Documents/GitHub/calculator/engine/number.h",
 			"MU",
 			"BCDQH4B662/moc_number.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -271,8 +271,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/tokyo/clone/cuteclone/calculator/build",
-		"/home/tokyo/clone/cuteclone/calculator",
+		"/home/tokyo/Documents/GitHub/calculator/build",
+		"/home/tokyo/Documents/GitHub/calculator",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
@@ -301,26 +301,26 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/tokyo/clone/cuteclone/calculator/calcengine.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/engine/constants.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/engine/evaluator.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/engine/functions.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/engine/hmath.cpp", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/engine/number.c", "MU" ],
-		[ "/home/tokyo/clone/cuteclone/calculator/main.cpp", "MU" ]
+		[ "/home/tokyo/Documents/GitHub/calculator/calcengine.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/engine/constants.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/engine/evaluator.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/engine/functions.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/engine/hmath.cpp", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/engine/number.c", "MU" ],
+		[ "/home/tokyo/Documents/GitHub/calculator/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

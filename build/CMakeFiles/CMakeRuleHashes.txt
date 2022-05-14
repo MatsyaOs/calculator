@@ -1,8 +1,8 @@
 # Hashes of file build rules.
-1e1103dac60ae169cf79e91b6ab4f887 ../translations/en_US.ts
-4c8777c667b95cf8aa1e7cba8981b547 ../translations/zh_CN.ts
-c15e32b5f95d7a7ea11137aa9be367a9 CMakeFiles/cutefish-calculator_autogen
-d380bfca4f067f7df3c7c7ccb2a37f77 CMakeFiles/translations
-2f0bc8ab6e071288e125f7aba96da12b cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
-dcce7bf1cd7ea43c1290e87f85605d96 en_US.qm
-1aacd96fc6b8c06b48b9f18ee4c3584f zh_CN.qm
+68d739fa241694791ccbc31eb919be61 ../translations/en_US.ts
+ea56be69133873c6aafb3b568a823c97 ../translations/zh_CN.ts
+263395dfe6e55160b97f6f0955011c7e CMakeFiles/matsya-calculator_autogen
+62c715bd4b30da25abd9e64b241309e6 CMakeFiles/translations
+aa65cbdb8b592b5b19194e1969f248a4 en_US.qm
+35c13d9e10fcccb3dbcd7016e7bf7354 matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
+b87ab93517df317140709d73725401fc zh_CN.qm

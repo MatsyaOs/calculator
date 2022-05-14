@@ -6,51 +6,51 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/BCDQH4B662/moc_constants.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/BCDQH4B662/moc_constants.cpp
 memory
 -
 ../../../engine/constants.h
-/home/tokyo/clone/cuteclone/calculator/engine/constants.h
+/home/tokyo/Documents/GitHub/calculator/engine/constants.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/EWIEGA46WW/moc_calcengine.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/EWIEGA46WW/moc_calcengine.cpp
 memory
 -
 ../../../calcengine.h
-/home/tokyo/clone/cuteclone/calculator/calcengine.h
+/home/tokyo/Documents/GitHub/calculator/calcengine.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
 
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/mocs_compilation.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_calcengine.cpp
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/EWIEGA46WW/moc_calcengine.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/EWIEGA46WW/moc_calcengine.cpp
 BCDQH4B662/moc_constants.cpp
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/BCDQH4B662/moc_constants.cpp
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/BCDQH4B662/moc_constants.cpp
 
-/home/tokyo/clone/cuteclone/calculator/calcengine.cpp
+/home/tokyo/Documents/GitHub/calculator/calcengine.cpp
 calcengine.h
-/home/tokyo/clone/cuteclone/calculator/calcengine.h
+/home/tokyo/Documents/GitHub/calculator/calcengine.h
 QDebug
 -
 
-/home/tokyo/clone/cuteclone/calculator/calcengine.h
+/home/tokyo/Documents/GitHub/calculator/calcengine.h
 QObject
 -
 engine/evaluator.h
-/home/tokyo/clone/cuteclone/calculator/engine/evaluator.h
+/home/tokyo/Documents/GitHub/calculator/engine/evaluator.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/constants.cpp
+/home/tokyo/Documents/GitHub/calculator/engine/constants.cpp
 constants.h
-/home/tokyo/clone/cuteclone/calculator/engine/constants.h
+/home/tokyo/Documents/GitHub/calculator/engine/constants.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/constants.h
+/home/tokyo/Documents/GitHub/calculator/engine/constants.h
 QList
 -
 QObject
@@ -60,13 +60,13 @@ QString
 QStringList
 -
 
-/home/tokyo/clone/cuteclone/calculator/engine/evaluator.cpp
+/home/tokyo/Documents/GitHub/calculator/engine/evaluator.cpp
 evaluator.h
-/home/tokyo/clone/cuteclone/calculator/engine/evaluator.h
+/home/tokyo/Documents/GitHub/calculator/engine/evaluator.h
 functions.h
-/home/tokyo/clone/cuteclone/calculator/engine/functions.h
+/home/tokyo/Documents/GitHub/calculator/engine/functions.h
 opcode.h
-/home/tokyo/clone/cuteclone/calculator/engine/opcode.h
+/home/tokyo/Documents/GitHub/calculator/engine/opcode.h
 float.h
 -
 limits.h
@@ -88,21 +88,21 @@ QVector
 QStack
 -
 
-/home/tokyo/clone/cuteclone/calculator/engine/evaluator.h
+/home/tokyo/Documents/GitHub/calculator/engine/evaluator.h
 QString
 -
 QVector
 -
 hmath.h
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.h
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/functions.cpp
+/home/tokyo/Documents/GitHub/calculator/engine/functions.cpp
 evaluator.h
-/home/tokyo/clone/cuteclone/calculator/engine/evaluator.h
+/home/tokyo/Documents/GitHub/calculator/engine/evaluator.h
 functions.h
-/home/tokyo/clone/cuteclone/calculator/engine/functions.h
+/home/tokyo/Documents/GitHub/calculator/engine/functions.h
 hmath.h
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.h
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.h
 QCoreApplication
 -
 QHash
@@ -118,19 +118,19 @@ float.h
 math.h
 -
 
-/home/tokyo/clone/cuteclone/calculator/engine/functions.h
+/home/tokyo/Documents/GitHub/calculator/engine/functions.h
 QStringList
 -
 QVector
 -
 hmath.h
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.h
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.cpp
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.cpp
 hmath.h
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.h
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.h
 number.h
-/home/tokyo/clone/cuteclone/calculator/engine/number.h
+/home/tokyo/Documents/GitHub/calculator/engine/number.h
 ctype.h
 -
 stdlib.h
@@ -144,17 +144,17 @@ sstream
 iostream
 -
 
-/home/tokyo/clone/cuteclone/calculator/engine/hmath.h
+/home/tokyo/Documents/GitHub/calculator/engine/hmath.h
 iostream
 -
 
-/home/tokyo/clone/cuteclone/calculator/engine/number.h
+/home/tokyo/Documents/GitHub/calculator/engine/number.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/opcode.h
+/home/tokyo/Documents/GitHub/calculator/engine/opcode.h
 QString
 -
 
-/home/tokyo/clone/cuteclone/calculator/main.cpp
+/home/tokyo/Documents/GitHub/calculator/main.cpp
 QGuiApplication
 -
 QQmlApplicationEngine
@@ -170,7 +170,7 @@ QIcon
 QFile
 -
 calcengine.h
-/home/tokyo/clone/cuteclone/calculator/calcengine.h
+/home/tokyo/Documents/GitHub/calculator/calcengine.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication
 qcoreapplication.h

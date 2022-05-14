@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/cuteclone/calculator
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/cuteclone/calculator/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/calculator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/calculator/build/CMakeFiles /home/tokyo/clone/cuteclone/calculator/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/calculator/build/CMakeFiles /home/tokyo/Documents/GitHub/calculator/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/cuteclone/calculator/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/calculator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,30 +189,30 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-calculator
+# Target rules for targets named matsya-calculator
 
 # Build rule for target.
-cutefish-calculator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-calculator
-.PHONY : cutefish-calculator
+matsya-calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-calculator
+.PHONY : matsya-calculator
 
 # fast build rule for target.
-cutefish-calculator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/build
-.PHONY : cutefish-calculator/fast
+matsya-calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/build
+.PHONY : matsya-calculator/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-calculator_autogen
+# Target rules for targets named matsya-calculator_autogen
 
 # Build rule for target.
-cutefish-calculator_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-calculator_autogen
-.PHONY : cutefish-calculator_autogen
+matsya-calculator_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-calculator_autogen
+.PHONY : matsya-calculator_autogen
 
 # fast build rule for target.
-cutefish-calculator_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator_autogen.dir/build.make CMakeFiles/cutefish-calculator_autogen.dir/build
-.PHONY : cutefish-calculator_autogen/fast
+matsya-calculator_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator_autogen.dir/build.make CMakeFiles/matsya-calculator_autogen.dir/build
+.PHONY : matsya-calculator_autogen/fast
 
 calcengine.o: calcengine.cpp.o
 
@@ -220,7 +220,7 @@ calcengine.o: calcengine.cpp.o
 
 # target to build an object file
 calcengine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/calcengine.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/calcengine.cpp.o
 .PHONY : calcengine.cpp.o
 
 calcengine.i: calcengine.cpp.i
@@ -229,7 +229,7 @@ calcengine.i: calcengine.cpp.i
 
 # target to preprocess a source file
 calcengine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/calcengine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/calcengine.cpp.i
 .PHONY : calcengine.cpp.i
 
 calcengine.s: calcengine.cpp.s
@@ -238,62 +238,8 @@ calcengine.s: calcengine.cpp.s
 
 # target to generate assembly for a file
 calcengine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/calcengine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/calcengine.cpp.s
 .PHONY : calcengine.cpp.s
-
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.o: cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.i: cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.s: cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-calculator_autogen/mocs_compilation.o: cutefish-calculator_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-calculator_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-calculator_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-calculator_autogen/mocs_compilation.cpp.o
-
-cutefish-calculator_autogen/mocs_compilation.i: cutefish-calculator_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-calculator_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-calculator_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-calculator_autogen/mocs_compilation.cpp.i
-
-cutefish-calculator_autogen/mocs_compilation.s: cutefish-calculator_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-calculator_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-calculator_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-calculator_autogen/mocs_compilation.cpp.s
 
 engine/constants.o: engine/constants.cpp.o
 
@@ -301,7 +247,7 @@ engine/constants.o: engine/constants.cpp.o
 
 # target to build an object file
 engine/constants.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/constants.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/constants.cpp.o
 .PHONY : engine/constants.cpp.o
 
 engine/constants.i: engine/constants.cpp.i
@@ -310,7 +256,7 @@ engine/constants.i: engine/constants.cpp.i
 
 # target to preprocess a source file
 engine/constants.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/constants.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/constants.cpp.i
 .PHONY : engine/constants.cpp.i
 
 engine/constants.s: engine/constants.cpp.s
@@ -319,7 +265,7 @@ engine/constants.s: engine/constants.cpp.s
 
 # target to generate assembly for a file
 engine/constants.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/constants.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/constants.cpp.s
 .PHONY : engine/constants.cpp.s
 
 engine/evaluator.o: engine/evaluator.cpp.o
@@ -328,7 +274,7 @@ engine/evaluator.o: engine/evaluator.cpp.o
 
 # target to build an object file
 engine/evaluator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/evaluator.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/evaluator.cpp.o
 .PHONY : engine/evaluator.cpp.o
 
 engine/evaluator.i: engine/evaluator.cpp.i
@@ -337,7 +283,7 @@ engine/evaluator.i: engine/evaluator.cpp.i
 
 # target to preprocess a source file
 engine/evaluator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/evaluator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/evaluator.cpp.i
 .PHONY : engine/evaluator.cpp.i
 
 engine/evaluator.s: engine/evaluator.cpp.s
@@ -346,7 +292,7 @@ engine/evaluator.s: engine/evaluator.cpp.s
 
 # target to generate assembly for a file
 engine/evaluator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/evaluator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/evaluator.cpp.s
 .PHONY : engine/evaluator.cpp.s
 
 engine/functions.o: engine/functions.cpp.o
@@ -355,7 +301,7 @@ engine/functions.o: engine/functions.cpp.o
 
 # target to build an object file
 engine/functions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/functions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/functions.cpp.o
 .PHONY : engine/functions.cpp.o
 
 engine/functions.i: engine/functions.cpp.i
@@ -364,7 +310,7 @@ engine/functions.i: engine/functions.cpp.i
 
 # target to preprocess a source file
 engine/functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/functions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/functions.cpp.i
 .PHONY : engine/functions.cpp.i
 
 engine/functions.s: engine/functions.cpp.s
@@ -373,7 +319,7 @@ engine/functions.s: engine/functions.cpp.s
 
 # target to generate assembly for a file
 engine/functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/functions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/functions.cpp.s
 .PHONY : engine/functions.cpp.s
 
 engine/hmath.o: engine/hmath.cpp.o
@@ -382,7 +328,7 @@ engine/hmath.o: engine/hmath.cpp.o
 
 # target to build an object file
 engine/hmath.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/hmath.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/hmath.cpp.o
 .PHONY : engine/hmath.cpp.o
 
 engine/hmath.i: engine/hmath.cpp.i
@@ -391,7 +337,7 @@ engine/hmath.i: engine/hmath.cpp.i
 
 # target to preprocess a source file
 engine/hmath.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/hmath.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/hmath.cpp.i
 .PHONY : engine/hmath.cpp.i
 
 engine/hmath.s: engine/hmath.cpp.s
@@ -400,7 +346,7 @@ engine/hmath.s: engine/hmath.cpp.s
 
 # target to generate assembly for a file
 engine/hmath.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/hmath.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/hmath.cpp.s
 .PHONY : engine/hmath.cpp.s
 
 engine/number.o: engine/number.c.o
@@ -409,7 +355,7 @@ engine/number.o: engine/number.c.o
 
 # target to build an object file
 engine/number.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/number.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/number.c.o
 .PHONY : engine/number.c.o
 
 engine/number.i: engine/number.c.i
@@ -418,7 +364,7 @@ engine/number.i: engine/number.c.i
 
 # target to preprocess a source file
 engine/number.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/number.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/number.c.i
 .PHONY : engine/number.c.i
 
 engine/number.s: engine/number.c.s
@@ -427,7 +373,7 @@ engine/number.s: engine/number.c.s
 
 # target to generate assembly for a file
 engine/number.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/engine/number.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/engine/number.c.s
 .PHONY : engine/number.c.s
 
 main.o: main.cpp.o
@@ -436,7 +382,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -445,7 +391,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -454,8 +400,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-calculator.dir/build.make CMakeFiles/cutefish-calculator.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.o: matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.o
+
+# target to build an object file
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.i: matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.s: matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-calculator_autogen/mocs_compilation.o: matsya-calculator_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-calculator_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-calculator_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-calculator_autogen/mocs_compilation.cpp.o
+
+matsya-calculator_autogen/mocs_compilation.i: matsya-calculator_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-calculator_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-calculator_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-calculator_autogen/mocs_compilation.cpp.i
+
+matsya-calculator_autogen/mocs_compilation.s: matsya-calculator_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-calculator_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-calculator_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-calculator.dir/build.make CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-calculator_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -469,18 +469,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... cutefish-calculator_autogen"
+	@echo "... matsya-calculator_autogen"
 	@echo "... translations"
-	@echo "... cutefish-calculator"
+	@echo "... matsya-calculator"
 	@echo "... calcengine.o"
 	@echo "... calcengine.i"
 	@echo "... calcengine.s"
-	@echo "... cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-calculator_autogen/mocs_compilation.o"
-	@echo "... cutefish-calculator_autogen/mocs_compilation.i"
-	@echo "... cutefish-calculator_autogen/mocs_compilation.s"
 	@echo "... engine/constants.o"
 	@echo "... engine/constants.i"
 	@echo "... engine/constants.s"
@@ -499,6 +493,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matsya-calculator_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-calculator_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-calculator_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-calculator_autogen/mocs_compilation.o"
+	@echo "... matsya-calculator_autogen/mocs_compilation.i"
+	@echo "... matsya-calculator_autogen/mocs_compilation.s"
 .PHONY : help
 
 

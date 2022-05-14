@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/tokyo/clone/cuteclone/calculator/engine/number.c
+/home/tokyo/Documents/GitHub/calculator/engine/number.c
 number.h
-/home/tokyo/clone/cuteclone/calculator/engine/number.h
+/home/tokyo/Documents/GitHub/calculator/engine/number.h
 stdio.h
 -
 assert.h
@@ -20,7 +20,7 @@ string.h
 ctype.h
 -
 muldigits.h
-/home/tokyo/clone/cuteclone/calculator/engine/muldigits.h
+/home/tokyo/Documents/GitHub/calculator/engine/muldigits.h
 
-/home/tokyo/clone/cuteclone/calculator/engine/number.h
+/home/tokyo/Documents/GitHub/calculator/engine/number.h
 

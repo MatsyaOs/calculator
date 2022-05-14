@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/tokyo/clone/cuteclone/calculator/engine/number.c" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/engine/number.c.o"
+  "/home/tokyo/Documents/GitHub/calculator/engine/number.c" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/engine/number.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   "../"
-  "cutefish-calculator_autogen/include"
+  "matsya-calculator_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
@@ -37,14 +37,14 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtQuickControls2"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tokyo/clone/cuteclone/calculator/calcengine.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/calcengine.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/mocs_compilation.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/cutefish-calculator_autogen/mocs_compilation.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/engine/constants.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/engine/constants.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/engine/evaluator.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/engine/evaluator.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/engine/functions.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/engine/functions.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/engine/hmath.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/engine/hmath.cpp.o"
-  "/home/tokyo/clone/cuteclone/calculator/main.cpp" "/home/tokyo/clone/cuteclone/calculator/build/CMakeFiles/cutefish-calculator.dir/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/calcengine.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/calcengine.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/engine/constants.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/engine/constants.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/engine/evaluator.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/engine/evaluator.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/engine/functions.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/engine/functions.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/engine/hmath.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/engine/hmath.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/main.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/main.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp.o"
+  "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/mocs_compilation.cpp" "/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir/matsya-calculator_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -64,7 +64,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
-  "cutefish-calculator_autogen/include"
+  "matsya-calculator_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/tokyo/clone/cuteclone/calculator
+# Install script for directory: /home/tokyo/Documents/GitHub/calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,53 +43,53 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-calculator" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-calculator")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-calculator" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-calculator")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/bin/cutefish-calculator"
+         FILE "$ENV{DESTDIR}/usr/bin/matsya-calculator"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/bin/cutefish-calculator")
+   "/usr/bin/matsya-calculator")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator")
-  if(EXISTS "$ENV{DESTDIR}/usr/bin/cutefish-calculator" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/cutefish-calculator")
+file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator")
+  if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-calculator" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-calculator")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/cutefish-calculator")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/bin/matsya-calculator")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/applications/cutefish-calculator.desktop")
+   "/usr/share/applications/matsya-calculator.desktop")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/clone/cuteclone/calculator/cutefish-calculator.desktop")
+file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/Documents/GitHub/calculator/matsya-calculator.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/share/cutefish-calculator/translations/en_US.qm;/usr/share/cutefish-calculator/translations/zh_CN.qm")
+   "/usr/share/matsya-calculator/translations/en_US.qm;/usr/share/matsya-calculator/translations/zh_CN.qm")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/share/cutefish-calculator/translations" TYPE FILE FILES
-    "/home/tokyo/clone/cuteclone/calculator/build/en_US.qm"
-    "/home/tokyo/clone/cuteclone/calculator/build/zh_CN.qm"
+file(INSTALL DESTINATION "/usr/share/matsya-calculator/translations" TYPE FILE FILES
+    "/home/tokyo/Documents/GitHub/calculator/build/en_US.qm"
+    "/home/tokyo/Documents/GitHub/calculator/build/zh_CN.qm"
     )
 endif()
 
@@ -101,5 +101,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/clone/cuteclone/calculator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tokyo/Documents/GitHub/calculator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

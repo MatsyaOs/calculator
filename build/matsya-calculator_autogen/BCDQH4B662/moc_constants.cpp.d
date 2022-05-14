@@ -1,7 +1,5 @@
-/home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/EWIEGA46WW/moc_calcengine.cpp: /home/tokyo/clone/cuteclone/calculator/calcengine.h \
-  /home/tokyo/clone/cuteclone/calculator/build/cutefish-calculator_autogen/moc_predefs.h \
-  /home/tokyo/clone/cuteclone/calculator/engine/evaluator.h \
-  /home/tokyo/clone/cuteclone/calculator/engine/hmath.h \
+/home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/BCDQH4B662/moc_constants.cpp: /home/tokyo/Documents/GitHub/calculator/engine/constants.h \
+  /home/tokyo/Documents/GitHub/calculator/build/matsya-calculator_autogen/moc_predefs.h \
   /usr/include/assert.h \
   /usr/include/c++/10/algorithm \
   /usr/include/c++/10/array \
@@ -11,8 +9,6 @@
   /usr/include/c++/10/bits/alloc_traits.h \
   /usr/include/c++/10/bits/allocated_ptr.h \
   /usr/include/c++/10/bits/allocator.h \
-  /usr/include/c++/10/bits/basic_ios.h \
-  /usr/include/c++/10/bits/basic_ios.tcc \
   /usr/include/c++/10/bits/basic_string.h \
   /usr/include/c++/10/bits/basic_string.tcc \
   /usr/include/c++/10/bits/c++0x_warning.h \
@@ -32,19 +28,15 @@
   /usr/include/c++/10/bits/hash_bytes.h \
   /usr/include/c++/10/bits/invoke.h \
   /usr/include/c++/10/bits/ios_base.h \
-  /usr/include/c++/10/bits/istream.tcc \
   /usr/include/c++/10/bits/iterator_concepts.h \
   /usr/include/c++/10/bits/list.tcc \
   /usr/include/c++/10/bits/locale_classes.h \
   /usr/include/c++/10/bits/locale_classes.tcc \
-  /usr/include/c++/10/bits/locale_facets.h \
-  /usr/include/c++/10/bits/locale_facets.tcc \
   /usr/include/c++/10/bits/localefwd.h \
   /usr/include/c++/10/bits/memoryfwd.h \
   /usr/include/c++/10/bits/move.h \
   /usr/include/c++/10/bits/nested_exception.h \
   /usr/include/c++/10/bits/node_handle.h \
-  /usr/include/c++/10/bits/ostream.tcc \
   /usr/include/c++/10/bits/ostream_insert.h \
   /usr/include/c++/10/bits/postypes.h \
   /usr/include/c++/10/bits/predefined_ops.h \
@@ -90,7 +82,6 @@
   /usr/include/c++/10/cstdint \
   /usr/include/c++/10/cstdlib \
   /usr/include/c++/10/cwchar \
-  /usr/include/c++/10/cwctype \
   /usr/include/c++/10/debug/assertions.h \
   /usr/include/c++/10/debug/debug.h \
   /usr/include/c++/10/exception \
@@ -103,10 +94,7 @@
   /usr/include/c++/10/ext/type_traits.h \
   /usr/include/c++/10/functional \
   /usr/include/c++/10/initializer_list \
-  /usr/include/c++/10/ios \
   /usr/include/c++/10/iosfwd \
-  /usr/include/c++/10/iostream \
-  /usr/include/c++/10/istream \
   /usr/include/c++/10/iterator \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/list \
@@ -114,7 +102,6 @@
   /usr/include/c++/10/new \
   /usr/include/c++/10/numeric \
   /usr/include/c++/10/optional \
-  /usr/include/c++/10/ostream \
   /usr/include/c++/10/pstl/execution_defs.h \
   /usr/include/c++/10/pstl/glue_algorithm_defs.h \
   /usr/include/c++/10/pstl/glue_numeric_defs.h \
@@ -140,7 +127,6 @@
   /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
-  /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
@@ -179,23 +165,21 @@
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
