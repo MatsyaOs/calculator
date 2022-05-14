@@ -3,8 +3,8 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 
 
-import FishUI 1.0 as FishUI
-import Cutefish.Calculator 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Calculator 1.0
 
 Item {
     id: zone
@@ -30,7 +30,7 @@ Item {
             }
 
             delegate: Item {
-                height: label.implicitHeight + FishUI.Units.largeSpacing * 2
+                height: label.implicitHeight + MatsyaUI.Units.largeSpacing * 2
                 width: parent ? parent.width : undefined
 
                 Label {
@@ -39,10 +39,10 @@ Item {
                     horizontalAlignment: Qt.AlignRight
                     text: historyModel.count > 0 ? historyModel.get(index).text : ""
                     elide: Text.ElideMiddle
-                    color: FishUI.Theme.disabledTextColor
+                    color: MatsyaUI.Theme.disabledTextColor
 
-                    leftPadding: FishUI.Units.largeSpacing
-                    rightPadding: FishUI.Units.largeSpacing
+                    leftPadding: MatsyaUI.Units.largeSpacing
+                    rightPadding: MatsyaUI.Units.largeSpacing
 
                     MouseArea {
                         hoverEnabled: true
@@ -68,8 +68,8 @@ Item {
                 color: "transparent"
             }
 
-            leftPadding: FishUI.Units.largeSpacing
-            rightPadding: FishUI.Units.largeSpacing
+            leftPadding: MatsyaUI.Units.largeSpacing
+            rightPadding: MatsyaUI.Units.largeSpacing
         }
     }
 
@@ -90,7 +90,7 @@ Item {
         } else if (text === 'C') {
             if (textField.text != "")
                 textField.clear()
-            else 
+            else
                 historyModel.clear()
         } else if (text === 'BACKSPACE') {
             // backspace

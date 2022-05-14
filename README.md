@@ -1,6 +1,6 @@
 # Calculator
 
-CutefishOS Calculator
+MatsyaOS Calculator
 
 ## Dependencies
 
