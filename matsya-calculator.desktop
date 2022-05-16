@@ -1,6 +1,5 @@
 [Desktop Entry]
 Name=Calculator
-Name[zh_CN]=计算器
 Exec=/usr/bin/matsya-calculator
 Icon=matsya-calculator
 Terminal=false
