@@ -1,7 +1,6 @@
-# Calculator
-
-MatsyaOS Calculator
-
+# Matsya Calculator
+![github image](https://github.com/MatsyaOs/calculator/blob/main/5566-ai-removebg-preview.png "Matsya Calculator")
+Matsya
 ## Dependencies
 
 ```shell
