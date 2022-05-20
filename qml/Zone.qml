@@ -3,7 +3,7 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 
 
-import FishUI 1.0 as MatsyaUI
+import MatsyaUI 1.0 as MatsyaUI
 import Matsya.Calculator 1.0
 
 Item {

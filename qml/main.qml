@@ -3,7 +3,7 @@ import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import Matsya.Calculator 1.0
 import Qt.labs.platform 1.0
-import FishUI 1.0 as MatsyaUI
+import MatsyaUI 1.0 as MatsyaUI
 
 MatsyaUI.Window {
     id: rootWindow

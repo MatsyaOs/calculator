@@ -1,9 +1,0 @@
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/install/strip.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/install/local.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/install.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/list_install_components.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/rebuild_cache.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/edit_cache.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/translations.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator.dir
-/home/tokyo/Documents/GitHub/calculator/build/CMakeFiles/matsya-calculator_autogen.dir
