@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/matsya-calculator_autogen",
+	"CMAKE_BINARY_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator",
+	"CMAKE_SOURCE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator",
+	"INCLUDE_DIR" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/matsya-calculator_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/qml/Zone.qml",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/qml/StandardPad.qml",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/qml/StandardButton.qml",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/qml/main.qml",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/images/light/backspace.svg",
+		"/home/tokyo/matsyaos/matsyaos-dependencies/calculator/images/dark/backspace.svg"
+	],
+	"LOCK_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/CMakeFiles/matsya-calculator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/CMakeFiles/matsya-calculator_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/qml.qrc",
+	"VERBOSITY" : 0
+}

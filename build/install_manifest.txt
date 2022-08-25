@@ -1,0 +1,4 @@
+/usr/bin/matsya-calculator
+/usr/share/applications/matsya-calculator.desktop
+/usr/share/matsya-calculator/translations/en_US.qm
+/usr/share/matsya-calculator/translations/zh_CN.qm
