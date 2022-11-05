@@ -1,8 +1,8 @@
 # Hashes of file build rules.
-958a04307ee93309a2a362fbea7ebc20 ../translations/en_US.ts
-965c4ba58b04fda627aba70cf95dd507 ../translations/zh_CN.ts
-701ccc322e9ed24478f000485e7ef098 CMakeFiles/matsya-calculator_autogen
-06eb8ceb76877371e4f37957037a9c4a CMakeFiles/translations
-229f3266c817cd134bae24dbd054a1af en_US.qm
-4c632c4ecdae90e341e00763e5ddb855 matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
-5dcaa038375e1f9ac7a0f4029bc75fd2 zh_CN.qm
+4231c652081b65ad1d11524fe9f4880d /run/media/tokyo/DATA/Documents/final/calculator/translations/en_US.ts
+34cc8fca6392d3adb1ee479ff7d2f99d /run/media/tokyo/DATA/Documents/final/calculator/translations/zh_CN.ts
+75e9b4df38d73ca5d85f34bd019b7481 CMakeFiles/matsya-calculator_autogen
+6369cff18409c27fd323035104bfc3f7 CMakeFiles/translations
+24fdaaf17657b7c2c96764efed352935 en_US.qm
+37e72bd6d7861865d53c63b8e4f57fcc matsya-calculator_autogen/EWIEGA46WW/qrc_qml.cpp
+639eb1fe53df013e83b7ea13647ae0e6 zh_CN.qm

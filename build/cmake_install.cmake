@@ -1,8 +1,8 @@
-# Install script for directory: /home/tokyo/matsyaos/matsyaos-dependencies/calculator
+# Install script for directory: /run/media/tokyo/DATA/Documents/final/calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/tokyo/archuseriso/profiles/matsya/airootfs/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,7 +42,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-calculator" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-calculator")
     file(RPATH_CHECK
@@ -57,7 +57,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/matsya-calculator")
+  file(INSTALL DESTINATION "/usr/bin" TYPE EXECUTABLE FILES "/run/media/tokyo/DATA/Documents/final/calculator/build/matsya-calculator")
   if(EXISTS "$ENV{DESTDIR}/usr/bin/matsya-calculator" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/bin/matsya-calculator")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -66,7 +66,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Runtime" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/share/applications/matsya-calculator.desktop")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -75,10 +75,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMP
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/matsya-calculator.desktop")
+  file(INSTALL DESTINATION "/usr/share/applications" TYPE FILE FILES "/run/media/tokyo/DATA/Documents/final/calculator/matsya-calculator.desktop")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
    "/usr/share/matsya-calculator/translations/en_US.qm;/usr/share/matsya-calculator/translations/zh_CN.qm")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
@@ -88,8 +88,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/usr/share/matsya-calculator/translations" TYPE FILE FILES
-    "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/en_US.qm"
-    "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/zh_CN.qm"
+    "/run/media/tokyo/DATA/Documents/final/calculator/build/en_US.qm"
+    "/run/media/tokyo/DATA/Documents/final/calculator/build/zh_CN.qm"
     )
 endif()
 
@@ -101,5 +101,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tokyo/matsyaos/matsyaos-dependencies/calculator/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/run/media/tokyo/DATA/Documents/final/calculator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

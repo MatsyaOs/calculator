@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../translations/en_US.ts"
-  "../translations/zh_CN.ts"
+  "/run/media/tokyo/DATA/Documents/final/calculator/translations/en_US.ts"
+  "/run/media/tokyo/DATA/Documents/final/calculator/translations/zh_CN.ts"
   "CMakeFiles/translations"
   "en_US.qm"
   "zh_CN.qm"

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Calculator
 Exec=/usr/bin/matsya-calculator
-Icon=matsya-calculator
+Icon=cutefish-calculator
 Terminal=false
 Type=Application
 StartupNotify=true
